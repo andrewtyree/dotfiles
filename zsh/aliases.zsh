@@ -7,6 +7,8 @@ alias ll='ls -lah --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 alias cls='clear'
+alias angband='cd ~/Documents/TT/Angband/'
+alias dotfiles='cd ~/.dotfiles/'
 
 # mkdir + cd in one shot
 mkcd() { mkdir -p "$1" && cd "$1"; }
