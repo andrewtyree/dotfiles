@@ -48,3 +48,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'  # case-insensitive
 
 # ── Path ──────────────────────────────────────────────────────────────────────
 export PATH="$HOME/bin:$PATH"
+
+# -- Color? ---------------------------------------- to fix the garbage characters on tmux?
+TERM=xterm-256color
